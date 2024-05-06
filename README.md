@@ -10,7 +10,7 @@ About
 ============
 
 This page provides information about the project developed at Mesbah lab, UC Berkeley, USA, called ["Low-cost electronics for controlling current and power
-in DC plasma reactor."](http://www.anvargas.com/blog/plasma.html)  Experiments were carried out in practice in a laboratory, and the data contained in this GitHub repository were collected in those experiments. 
+in DC plasma reactor."](http://www.anvargas.com/blog/plasma.html)  Experiments were carried out in practice at Mesbah laboratory, and the data contained in this GitHub repository were collected in those experiments. 
 
 [![DOI](https://zenodo.org/badge/577329848.svg)](https://zenodo.org/badge/latestdoi/577329848)
 
