@@ -37,6 +37,7 @@ Installation
     - by running the `addpath` function from your command window or `startup` script.
 
 Make sure that you are running Matlab 2017a (or a newer version). Older versions may work, but it is uncertain.
+
 3. Upload the code `arduino_due_UC_Berkeley_power_plasma_dynamics_open_loop.ino` or `arduino_due_UC_Berkeley_power_plasma_PI_control.ino`  on your Arduino Due using the corresponding IDE interface.
 
 Usage
