@@ -46,7 +46,7 @@ Typical usage of `mainCodeMatlab.m` consists of running it in your MATLAB. The c
 
 MATLAB
 ------
-  1. Run `mainCodeMatlab.m`.
+  1. Run `mainMatlab.m`.
 
 More information
 ================
