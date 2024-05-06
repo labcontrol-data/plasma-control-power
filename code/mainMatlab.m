@@ -54,7 +54,7 @@ save(savefile,'heap_Vref','heap_V1','t','heap_V2','heap_Vcurrent','Ts','-v7');
 % data for 'CLOSED LOOP (CONTROL)' with Arduino
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 count=1;
-for ps=1:4
+for ps=1:2
     for ax=1:24
         textoPequeno = sprintf("20240426-%04d_%02d.mat",ps,ax);
         nome{count} = sprintf('%s',textoPequeno);
