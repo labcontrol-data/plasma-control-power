@@ -17,9 +17,13 @@ in DC plasma reactor."](http://www.anvargas.com/blog/plasma.html)  Experiments w
 **Please check more details about this project on the page detailing the ["(link soon)"](http://www.anvargas.com/blog/plasma.html)**
 
 
-`mainCodeMatlab.m` is a MATLAB(R) script that calls Matlab and generates simulation data. The script also generates figures. The figures contain both simulation and real-time data collected in a laboratory testbed.
+`mainMatlab.m` is a MATLAB(R) script that shows the experimental data. The script also generates the corresponding figures. More data is available to download, but they are not shown in the figures. Yet all data are free for download in this repo.
 
-`mainCodeArduinoDue.ino` is an Arduino Due code. This code processes data that were collected in real-time. The data contains information from low-cost probes that measured high-voltage from a plasma reactor. In addition, current and voltage measurements were taken and processed using an Arduino Due. All code, schematics, and data are available in this repository.
+`arduino_due_UC_Berkeley_power_plasma_dynamics_open_loop.ino` is an Arduino Due code. This code processes data that were collected in real-time. Experiments: controlling the current flowing through the plasma reactor. 
+
+`arduino_due_UC_Berkeley_power_plasma_PI_control.ino` is an Arduino Due code. This code processes data that were collected in real-time. Experiments: controlling the power in the plasma reactor. 
+
+All code, schematics, and data are available in this repository.
 
 For more details about the experimental data and the corresponding academic publications, please visit [the project page](http://www.anvargas.com/blog).
 
@@ -33,7 +37,7 @@ Installation
     - by running the `addpath` function from your command window or `startup` script.
 
 Make sure that you are running Matlab 2017a (or a newer version). Older versions may work, but it is uncertain.
-3. Upload the code `mainCodeArduinoDue.ino`in your Arduino Due using the corresponding IDE interface.
+3. Upload the code `arduino_due_UC_Berkeley_power_plasma_dynamics_open_loop.ino` or `arduino_due_UC_Berkeley_power_plasma_PI_control.ino`  on your Arduino Due using the corresponding IDE interface.
 
 Usage
 =====
